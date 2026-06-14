@@ -18,4 +18,5 @@ def divide(a, b):
 
 
 def add(a, b):
-    return a - b # Bug: subtracting instead of adding
+    return a + b # Fixed
+
