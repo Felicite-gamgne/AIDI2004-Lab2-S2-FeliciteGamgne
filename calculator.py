@@ -1,6 +1,6 @@
 # calculator.py - Created by Firstname Lastname
 def add(a, b):
-    return a + b
+    return a + b  # Fixed
 
 
 def subtract(a, b):
@@ -15,8 +15,3 @@ def divide(a, b):
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
-
-
-def add(a, b):
-    return a + b  # Fixed
-
